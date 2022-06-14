@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document for Week Netflix</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imagens-netflix/netflix.jpg" type="image/x-icon">
+
+    
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <img src="./imagens-netflix/netflix.svg" alt="logo-netflix" id="imagem-netflix">
+            <button id="btn">Entrar</button>
+        </div>
+
+        <div id="cabecalho-dois">
+              <h1>Filmes, séries e muito mais. Sem limites. </h1>
+              <p id="view">Assita onde quiser. Cancele quando quiser. </p>
+              <p id="closed">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+
+              <div id="forms">
+               <input type="text" placeholder="Email">
+            <button id="botao-entrar"> Vamos lá <img src="./imagens-netflix/seta.svg" alt="seta">
+              </div>
+
+            </button>
+        </div>
+    </div>
+    
+    <div id="rodape">
+        <h2>Perguntas Frequentes</h2>
+        <button id="botao-p">O que é a Netflix?<img src="./imagens-netflix/fechar.svg" alt="fechar" id="imagem-mais"></button>
+        <div id="question">
+            <p class="paragrafo-pergunta">A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.</p>
+                <br>
+            <p class="paragrafo-pergunta">Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries
+                e filmes.</p>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    let inter = document.getElementById("botao-p")
+    let quest = document.getElementById("question")
+    let image = document.getElementById("imagem-mais")
+
+    function action() {
+        if(quest.style.display == "none") {
+            quest.style.display = "block"
+            image.id = "image-question-rotate"
+        } else {
+            quest.style.display = "none"
+            image.id = "imagem-mais"
+        }
+    }
+
+    inter.addEventListener("click", action)
+
+
+
+</script>
+</html>

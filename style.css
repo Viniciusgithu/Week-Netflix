@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container {
+    background: url("./imagens-netflix/background.jpeg");
+    padding-bottom: 140px;
+    border-bottom: 8px solid #222;
+} 
+
+#btn {
+    background: #E50914;
+    font-size: 16px;
+    border: 0;
+    padding: 8px 18px 8px 18px;
+    height: 38px;
+    width: 80px;
+    float: right;
+    margin: 28px 56px 36px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+#imagem-netflix {
+    margin: 28px 56px 36px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#view {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+
+}
+
+#closed {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#botao-entrar {
+    width: 250px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#botao-entrar:hover {
+    opacity: 0.6;
+}
+
+#rodape {
+    background: black;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#botao-p {
+    width: 700px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#imagem-mais {
+    float: right;
+    margin-right: 15px;
+    transform: rotate(45deg);
+}
+
+#image-question-rotate {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#question {
+    width: 700px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 20px;
+    font-size: 24px;
+    display: none;
+}
+
+.paragrafo-pergunta {
+    font-size: 24px;
+}
